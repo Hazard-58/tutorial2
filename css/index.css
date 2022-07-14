@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Outfit', sans-serif;
+    background-color:  hsl(212, 45%, 89%);
+}
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container .image img {
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+.container .text {
+    margin: 10px;
+    text-align: center;
+}
+.container h1 {
+    font-weight: 700;
+    color:hsl(220, 15%, 30%);
+    font-size: 25px;
+
+}
+.container p {
+    font-weight: 400;
+    color: #777;
+    font-size: 20px;
+    line-height: 2;
+}
